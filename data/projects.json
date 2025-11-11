@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "cight-browser",
+    "category": "ACCESSIBILITY",
+    "title": "Cight Browser",
+    "description": "An innovative, accessible web browser designed specifically for individuals with visual impairments.",
+    "tags": ["Next.js", "React", "AI", "+2 more"],
+    "client": "Personal Project",
+    "year": "2024",
+    "technologies": ["Next.js", "React", "AI", "TypeScript", "Tailwind CSS"],
+    "about": [
+      "Cight Browser is an innovative web browser designed with accessibility at its core, specifically tailored for individuals with visual impairments. The browser incorporates advanced features like screen reader optimization, high contrast modes, and customizable text sizing to ensure an inclusive browsing experience.",
+      "The application leverages modern web technologies to provide a smooth and responsive interface. It includes voice navigation capabilities, keyboard shortcuts for all functions, and intelligent content parsing to simplify webpage structures for easier comprehension.",
+      "Built with Next.js and React, the project demonstrates a commitment to creating technology that is both powerful and accessible. The browser's architecture allows for seamless integration of assistive technologies while maintaining high performance standards."
+    ]
+  },
+  {
+    "slug": "zenalyze",
+    "category": "WEB & AI",
+    "title": "Zenalyze",
+    "description": "A DSA final project that performs lexical analysis on code, with real-time language detection and AI-driven suggestions.",
+    "tags": ["Next.js", "React.js", "C++", "+3 more"],
+    "client": "NUST - DSA Final Project",
+    "year": "2024",
+    "technologies": ["Next.js", "React.js", "C++", "Python", "Tailwind CSS", "Google Gemini API"],
+    "about": [
+      "Zenalyze combines multiple advanced features to deliver a seamless coding experience. It performs real-time lexical analysis to identify syntax and language elements, automatically detects the programming language (C++, Java, Python), and provides intelligent error detection with clear, actionable explanations.",
+      "To further assist developers, the tool offers AI-driven autocomplete suggestions that adapt as you type. Beyond that, Zenalyze also includes code history management with an efficient search feature, enabling users to revisit and explore their past work. It even allows users to switch between dark and light themes, catering to individual preferences and enhancing usability.",
+      "From a technical standpoint, I built the frontend using React.js, Next.js, and Tailwind CSS for a responsive and modern design. On the backend, C++ handles the core lexical analysis for speed and precision, while Python powers advanced AI integrations. Additionally, I incorporated Google's Gemini API to bring intelligent, AI-driven insights for code suggestions and error explanations."
+    ]
+  },
+  {
+    "slug": "image-steganography",
+    "category": "SECURITY",
+    "title": "Image Steganography in C",
+    "description": "A C-based project for hiding and extracting secret information within images using least significant bit manipulation.",
+    "tags": ["C", "Steganography", "Image Processing", "+1 more"],
+    "client": "Academic Project",
+    "year": "2023",
+    "technologies": ["C", "Image Processing", "Steganography", "BMP Format"],
+    "about": [
+      "This project implements steganography techniques to hide and retrieve secret messages within digital images. Using the least significant bit (LSB) manipulation method, the application can embed text data into image files without visibly altering the image quality.",
+      "The implementation supports BMP image format and includes encryption capabilities to secure the hidden data. Users can encode messages into images and decode them later, making it useful for secure communication and data protection.",
+      "Built entirely in C for performance and low-level control, the project demonstrates understanding of file I/O operations, bit manipulation, and image processing fundamentals. The code is optimized for efficiency and handles various edge cases in image processing."
+    ]
+  },
+  {
+    "slug": "lyte-mobile-app",
+    "category": "MOBILE DEVELOPMENT",
+    "title": "LYTE Mobile Application",
+    "description": "Flutter-based mobile application development as part of my role at LYTE studios.",
+    "tags": ["Flutter", "Dart", "Mobile Development", "+1 more"],
+    "client": "LYTE Studios",
+    "year": "2024",
+    "technologies": ["Flutter", "Dart", "Firebase", "REST API", "State Management"],
+    "about": [
+      "Developed a comprehensive mobile application for LYTE Studios using Flutter, delivering a cross-platform solution for both iOS and Android. The app features a modern, intuitive interface with smooth animations and responsive design.",
+      "The application includes user authentication, real-time data synchronization, and offline capabilities. I implemented state management patterns to handle complex application logic and ensure optimal performance across different devices.",
+      "Working as part of the development team, I collaborated on feature development, bug fixes, and performance optimization. The project utilized Firebase for backend services and REST APIs for external integrations, demonstrating proficiency in full-stack mobile development."
+    ]
+  },
+  {
+    "slug": "givegigs",
+    "category": "WEB DEVELOPMENT",
+    "title": "GiveGigs",
+    "description": "A freelancing platform built for a client that connects freelancers with clients seeking professional services.",
+    "tags": ["Next.js", "React", "Supabase", "+2 more"],
+    "client": "Client Project",
+    "year": "2024",
+    "technologies": ["Next.js", "React", "Supabase", "TypeScript", "Tailwind CSS", "Stripe API"],
+    "about": [
+      "GiveGigs is a comprehensive freelancing platform that connects talented freelancers with clients looking for professional services. The platform features a robust user authentication system, project posting capabilities, and a secure payment processing system.",
+      "The application includes features such as user profiles, project bidding, messaging system, and rating reviews. Built with Next.js for server-side rendering and optimal performance, the platform provides a seamless experience for both freelancers and clients.",
+      "I integrated Supabase for database management and authentication, ensuring secure and scalable data handling. The payment system utilizes Stripe API for secure transactions. The responsive design works seamlessly across desktop and mobile devices, providing an optimal user experience."
+    ]
+  },
+  {
+    "slug": "tailor-management-system",
+    "category": "WEB APPLICATION",
+    "title": "Tailor Management System",
+    "description": "A comprehensive management solution for tailoring businesses to track orders, inventory, and customer measurements.",
+    "tags": ["Next.js", "React", "Firebase", "+2 more"],
+    "client": "Local Business",
+    "year": "2024",
+    "technologies": ["Next.js", "React", "Firebase", "TypeScript", "Tailwind CSS"],
+    "about": [
+      "A complete management system designed specifically for tailoring businesses to streamline their operations. The system helps track customer orders, manage inventory, store customer measurements, and generate invoices.",
+      "The application features a user-friendly interface for managing customer information, order status tracking, and inventory management. Business owners can easily add new orders, update order statuses, and maintain a database of customer measurements for future reference.",
+      "Built with Next.js and React, the system utilizes Firebase for real-time data storage and synchronization. The application includes features like order history, customer profiles, and reporting capabilities to help business owners make informed decisions and improve their workflow efficiency."
+    ]
+  }
+]
