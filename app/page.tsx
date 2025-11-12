@@ -72,11 +72,11 @@ export default function Home() {
         </div>
       </nav>
 
-      <main className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-16 pt-14 sm:pt-16">
+      <main className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-16 pt-20 sm:pt-24 pb-12 sm:pb-16">
         <header
           id="intro"
           ref={(el) => { sectionsRef.current[0] = el }}
-          className="min-h-screen flex items-center opacity-0 relative"
+          className="min-h-screen flex items-start pt-24 sm:pt-32 opacity-0 relative"
         >
           {/* Vertical Social Links on Right Edge - Only in Intro Section */}
           {showSocialLinks && (
@@ -137,9 +137,9 @@ export default function Home() {
               </div>
             </div>
 
-                <div className="flex justify-end pt-4 -mr-16 sm:-mr-24">
+                <div className="flex justify-end pt-4 -mr-64 sm:-mr-72 lg:-mr-80">
                   <Link
-                    href="#work"
+                    href="/projects"
                     className="group flex items-center gap-2 text-foreground hover:text-muted-foreground transition-colors duration-300"
                   >
                     <Briefcase className="w-4 h-4" />
@@ -428,9 +428,8 @@ export default function Home() {
         </section>
 
         <footer className="py-12 sm:py-16 border-t border-border">
-            <div className="space-y-2">
-              <div className="text-sm text-muted-foreground">© 2025 Felix Macaspac. All rights reserved.</div>
-              <div className="text-xs text-muted-foreground">Built with v0.dev by Felix Macaspac</div>
+          <div className="text-center space-y-2">
+            <div className="text-sm text-muted-foreground">© 2024 Muhammad Muhad. All rights reserved.</div>
           </div>
         </footer>
       </main>

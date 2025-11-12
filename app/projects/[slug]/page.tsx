@@ -43,19 +43,6 @@ export default function ProjectDetailPage() {
 
   return (
     <PageLayout>
-      <nav className="fixed left-8 top-1/2 -translate-y-1/2 z-10 hidden lg:block">
-        <div className="flex flex-col gap-4">
-          {["intro", "work", "skills", "thoughts", "connect"].map((section) => (
-            <Link
-              key={section}
-              href={`/#${section}`}
-              className="w-2 h-8 rounded-full bg-muted-foreground/30 hover:bg-muted-foreground/60 transition-all duration-500"
-              aria-label={`Navigate to ${section}`}
-            />
-          ))}
-        </div>
-      </nav>
-      
       {/* Full Screen Hero Section with Logo */}
       <section className="h-screen flex items-center justify-center relative">
         {/* Back Link - Absolute positioned */}
@@ -109,12 +96,12 @@ export default function ProjectDetailPage() {
       </section>
 
       {/* Project Content Section */}
-      <section id="project-content" className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-16 pt-20 sm:pt-24 pb-12 sm:pb-16">
+      <section id="project-content" className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-16 pt-12 sm:pt-16 pb-12 sm:pb-16">
         {/* Separator Line - Between Logo and Project Name */}
-        <div className="border-t border-border mb-12"></div>
+        <div className="border-t border-border mb-8"></div>
 
         {/* Project Overview */}
-        <div className="mb-12">
+        <div className="mb-8">
           <div className="text-xs text-muted-foreground uppercase tracking-wider font-mono mb-4">
             {project.category}
           </div>
@@ -127,7 +114,7 @@ export default function ProjectDetailPage() {
         </div>
 
         {/* Separator Line - Between Project Name and About Section */}
-        <div className="border-t border-border mb-12"></div>
+        <div className="border-t border-border mb-8"></div>
 
         {/* Main Content - Two Column Layout */}
         <div className="grid lg:grid-cols-3 gap-12">

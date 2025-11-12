@@ -10,19 +10,6 @@ export default function ProjectsPage() {
 
   return (
     <PageLayout>
-      <nav className="fixed left-8 top-1/2 -translate-y-1/2 z-10 hidden lg:block">
-        <div className="flex flex-col gap-4">
-          {["intro", "work", "skills", "thoughts", "connect"].map((section) => (
-            <Link
-              key={section}
-              href={`/#${section}`}
-              className="w-2 h-8 rounded-full bg-muted-foreground/30 hover:bg-muted-foreground/60 transition-all duration-500"
-              aria-label={`Navigate to ${section}`}
-            />
-          ))}
-        </div>
-      </nav>
-      
       <div className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-16 pt-20 sm:pt-24 pb-12 sm:pb-16">
         <div className="mb-8 sm:mb-12">
           <Link
