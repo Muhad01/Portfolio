@@ -1,92 +1,152 @@
 [
   {
-    "slug": "cight-browser",
-    "category": "ACCESSIBILITY",
-    "title": "Cight Browser",
-    "description": "An innovative, accessible web browser designed specifically for individuals with visual impairments.",
-    "tags": ["Next.js", "React", "AI", "+2 more"],
-    "client": "Personal Project",
-    "year": "2024",
-    "technologies": ["Next.js", "React", "AI", "TypeScript", "Tailwind CSS"],
-    "about": [
-      "Cight Browser is an innovative web browser designed with accessibility at its core, specifically tailored for individuals with visual impairments. The browser incorporates advanced features like screen reader optimization, high contrast modes, and customizable text sizing to ensure an inclusive browsing experience.",
-      "The application leverages modern web technologies to provide a smooth and responsive interface. It includes voice navigation capabilities, keyboard shortcuts for all functions, and intelligent content parsing to simplify webpage structures for easier comprehension.",
-      "Built with Next.js and React, the project demonstrates a commitment to creating technology that is both powerful and accessible. The browser's architecture allows for seamless integration of assistive technologies while maintaining high performance standards."
-    ]
-  },
-  {
-    "slug": "zenalyze",
-    "category": "WEB & AI",
-    "title": "Zenalyze",
-    "description": "A DSA final project that performs lexical analysis on code, with real-time language detection and AI-driven suggestions.",
-    "tags": ["Next.js", "React.js", "C++", "+3 more"],
-    "client": "NUST - DSA Final Project",
-    "year": "2024",
-    "technologies": ["Next.js", "React.js", "C++", "Python", "Tailwind CSS", "Google Gemini API"],
-    "about": [
-      "Zenalyze combines multiple advanced features to deliver a seamless coding experience. It performs real-time lexical analysis to identify syntax and language elements, automatically detects the programming language (C++, Java, Python), and provides intelligent error detection with clear, actionable explanations.",
-      "To further assist developers, the tool offers AI-driven autocomplete suggestions that adapt as you type. Beyond that, Zenalyze also includes code history management with an efficient search feature, enabling users to revisit and explore their past work. It even allows users to switch between dark and light themes, catering to individual preferences and enhancing usability.",
-      "From a technical standpoint, I built the frontend using React.js, Next.js, and Tailwind CSS for a responsive and modern design. On the backend, C++ handles the core lexical analysis for speed and precision, while Python powers advanced AI integrations. Additionally, I incorporated Google's Gemini API to bring intelligent, AI-driven insights for code suggestions and error explanations."
-    ]
-  },
-  {
-    "slug": "image-steganography",
-    "category": "SECURITY",
-    "title": "Image Steganography in C",
-    "description": "A C-based project for hiding and extracting secret information within images using least significant bit manipulation.",
-    "tags": ["C", "Steganography", "Image Processing", "+1 more"],
-    "client": "Academic Project",
-    "year": "2023",
-    "technologies": ["C", "Image Processing", "Steganography", "BMP Format"],
-    "about": [
-      "This project implements steganography techniques to hide and retrieve secret messages within digital images. Using the least significant bit (LSB) manipulation method, the application can embed text data into image files without visibly altering the image quality.",
-      "The implementation supports BMP image format and includes encryption capabilities to secure the hidden data. Users can encode messages into images and decode them later, making it useful for secure communication and data protection.",
-      "Built entirely in C for performance and low-level control, the project demonstrates understanding of file I/O operations, bit manipulation, and image processing fundamentals. The code is optimized for efficiency and handles various edge cases in image processing."
-    ]
-  },
-  {
-    "slug": "lyte-mobile-app",
-    "category": "MOBILE DEVELOPMENT",
-    "title": "LYTE Mobile Application",
-    "description": "Flutter-based mobile application development as part of my role at LYTE studios.",
-    "tags": ["Flutter", "Dart", "Mobile Development", "+1 more"],
-    "client": "LYTE Studios",
-    "year": "2024",
-    "technologies": ["Flutter", "Dart", "Firebase", "REST API", "State Management"],
-    "about": [
-      "Developed a comprehensive mobile application for LYTE Studios using Flutter, delivering a cross-platform solution for both iOS and Android. The app features a modern, intuitive interface with smooth animations and responsive design.",
-      "The application includes user authentication, real-time data synchronization, and offline capabilities. I implemented state management patterns to handle complex application logic and ensure optimal performance across different devices.",
-      "Working as part of the development team, I collaborated on feature development, bug fixes, and performance optimization. The project utilized Firebase for backend services and REST APIs for external integrations, demonstrating proficiency in full-stack mobile development."
-    ]
-  },
-  {
-    "slug": "givegigs",
-    "category": "WEB DEVELOPMENT",
-    "title": "GiveGigs",
-    "description": "A freelancing platform built for a client that connects freelancers with clients seeking professional services.",
-    "tags": ["Next.js", "React", "Supabase", "+2 more"],
-    "client": "Client Project",
-    "year": "2024",
-    "technologies": ["Next.js", "React", "Supabase", "TypeScript", "Tailwind CSS", "Stripe API"],
-    "about": [
-      "GiveGigs is a comprehensive freelancing platform that connects talented freelancers with clients looking for professional services. The platform features a robust user authentication system, project posting capabilities, and a secure payment processing system.",
-      "The application includes features such as user profiles, project bidding, messaging system, and rating reviews. Built with Next.js for server-side rendering and optimal performance, the platform provides a seamless experience for both freelancers and clients.",
-      "I integrated Supabase for database management and authentication, ensuring secure and scalable data handling. The payment system utilizes Stripe API for secure transactions. The responsive design works seamlessly across desktop and mobile devices, providing an optimal user experience."
-    ]
-  },
-  {
-    "slug": "tailor-management-system",
+    "slug": "todo-application-java",
     "category": "WEB APPLICATION",
-    "title": "Tailor Management System",
-    "description": "A comprehensive management solution for tailoring businesses to track orders, inventory, and customer measurements.",
-    "tags": ["Next.js", "React", "Firebase", "+2 more"],
-    "client": "Local Business",
-    "year": "2024",
-    "technologies": ["Next.js", "React", "Firebase", "TypeScript", "Tailwind CSS"],
+    "title": "Todo Application",
+    "description": "A comprehensive todo application built using Java with MVC architecture for efficient task management.",
+    "tags": ["Java", "MVC", "Desktop Application", "+1 more"],
+    "client": "Personal Project",
+    "year": "2025",
+    "technologies": ["Java", "MVC Architecture", "Swing", "Object-Oriented Programming"],
     "about": [
-      "A complete management system designed specifically for tailoring businesses to streamline their operations. The system helps track customer orders, manage inventory, store customer measurements, and generate invoices.",
-      "The application features a user-friendly interface for managing customer information, order status tracking, and inventory management. Business owners can easily add new orders, update order statuses, and maintain a database of customer measurements for future reference.",
-      "Built with Next.js and React, the system utilizes Firebase for real-time data storage and synchronization. The application includes features like order history, customer profiles, and reporting capabilities to help business owners make informed decisions and improve their workflow efficiency."
+      "A robust todo application developed in Java following the Model-View-Controller (MVC) architectural pattern. The application provides a clean separation of concerns, making the codebase maintainable and scalable.",
+      "The application features comprehensive task management capabilities including creating, updating, deleting, and organizing todos. Users can categorize tasks, set priorities, and track completion status.",
+      "Built with Java's Swing framework for the user interface, the application demonstrates strong understanding of object-oriented programming principles, design patterns, and software architecture. The MVC pattern ensures that business logic, data, and presentation are properly separated."
+    ]
+  },
+  {
+    "slug": "gourmet-restaurant-website",
+    "category": "WEB DEVELOPMENT",
+    "title": "Gourmet Restaurant Website",
+    "description": "A modern restaurant website for 'Gourmet' featuring menu display, reservations, and online ordering capabilities.",
+    "tags": ["Next.js", "Firebase", "Web Development", "+2 more"],
+    "client": "Personal Project",
+    "year": "2025",
+    "technologies": ["Next.js", "Firebase", "React", "TypeScript", "Tailwind CSS"],
+    "about": [
+      "A beautifully designed restaurant website for 'Gourmet' that showcases the restaurant's menu, ambiance, and services. The website provides an intuitive user experience for customers to explore the restaurant's offerings.",
+      "The application includes features such as an interactive menu display with categories, online reservation system, and contact information. The design emphasizes visual appeal with high-quality images and smooth animations.",
+      "Built with Next.js for optimal performance and SEO, integrated with Firebase for real-time data management. The responsive design ensures a seamless experience across all devices, from desktop to mobile."
+    ]
+  },
+  {
+    "slug": "learning-management-system",
+    "category": "WEB APPLICATION",
+    "title": "Learning Management System",
+    "description": "A comprehensive learning management system for educational institutions to manage courses, students, and assignments.",
+    "tags": ["Next.js", "Firebase", "Education", "+2 more"],
+    "client": "Personal Project",
+    "year": "2025",
+    "technologies": ["Next.js", "Firebase", "React", "TypeScript", "Tailwind CSS"],
+    "about": [
+      "A full-featured learning management system designed to facilitate online education. The platform enables educators to create and manage courses, upload materials, and track student progress.",
+      "The system includes features such as course creation and management, student enrollment, assignment submission and grading, discussion forums, and progress tracking. Students can access course materials, submit assignments, and interact with instructors.",
+      "Built with Next.js for server-side rendering and Firebase for real-time database and authentication. The application provides a scalable solution for educational institutions looking to digitize their learning processes."
+    ]
+  },
+  {
+    "slug": "buddy-application",
+    "category": "MOBILE DEVELOPMENT",
+    "title": "Buddy Application",
+    "description": "A todo application built with Flutter and Dart, featuring Firebase integration for cloud synchronization.",
+    "tags": ["Dart", "Flutter", "Firebase", "+1 more"],
+    "client": "Personal Project",
+    "year": "2025",
+    "technologies": ["Dart", "Flutter", "Firebase", "Mobile Development", "State Management"],
+    "about": [
+      "Buddy is a cross-platform todo application developed using Flutter and Dart, providing a seamless task management experience on both iOS and Android devices. The app features a modern, intuitive interface with smooth animations.",
+      "The application includes features such as task creation, editing, deletion, categorization, and priority setting. Firebase integration enables real-time synchronization across all user devices, ensuring tasks are always up to date.",
+      "Built with Flutter's reactive framework and Firebase for backend services, the application demonstrates proficiency in mobile development, state management, and cloud integration. The app provides offline capabilities with automatic sync when connectivity is restored."
+    ]
+  },
+  {
+    "slug": "smart-parking-management-system",
+    "category": "WEB APPLICATION",
+    "title": "Smart Parking Management System",
+    "description": "An intelligent parking management system for efficient parking space allocation and monitoring.",
+    "tags": ["Next.js", "Firebase", "Management System", "+2 more"],
+    "client": "Semester Project",
+    "year": "2025",
+    "technologies": ["Next.js", "Firebase", "React", "TypeScript", "Tailwind CSS"],
+    "about": [
+      "A comprehensive parking management system designed to optimize parking space utilization and provide real-time availability information. The system helps parking facilities manage their operations more efficiently.",
+      "The application features real-time parking space tracking, reservation system, payment processing, and analytics dashboard. Users can check parking availability, reserve spots, and make payments through the platform.",
+      "Built with Next.js and Firebase, the system provides real-time updates on parking availability and integrates payment processing. The analytics dashboard helps administrators monitor usage patterns and optimize operations."
+    ]
+  },
+  {
+    "slug": "proposal-ai",
+    "category": "WEB & AI",
+    "title": "Proposal AI",
+    "description": "An AI-powered CV generator that scrapes details from GitHub and LinkedIn, then creates personalized CVs based on user commands using Langchain and Gemini API.",
+    "tags": ["Next.js", "Firebase", "AI", "+3 more"],
+    "client": "Personal Project",
+    "year": "2025",
+    "technologies": ["Next.js", "Firebase", "Langchain", "Gemini API", "RAGs", "TypeScript", "Tailwind CSS"],
+    "about": [
+      "Proposal AI is an innovative application that automates CV creation by intelligently extracting information from your GitHub and LinkedIn profiles. Simply provide your profile links and specify your requirements, and the AI generates a tailored CV.",
+      "The application uses web scraping to gather your professional details, projects, skills, and experience from GitHub and LinkedIn. Using Langchain and RAGs (Retrieval-Augmented Generation), it processes this information and generates a comprehensive CV based on your specific commands and requirements.",
+      "Built with Next.js for the frontend, Firebase for data storage, and integrated with Google's Gemini API for AI processing. The application leverages RAGs to provide context-aware CV generation, ensuring the output is relevant and personalized to your career profile."
+    ]
+  },
+  {
+    "slug": "music-application",
+    "category": "WEB APPLICATION",
+    "title": "Music Application",
+    "description": "A modern music streaming application that integrates with YouTube API to provide access to a vast library of music and audio content.",
+    "tags": ["Next.js", "Firebase", "YouTube API", "+2 more"],
+    "client": "Personal Project",
+    "year": "2026",
+    "technologies": ["Next.js", "Firebase", "YouTube API", "React", "TypeScript", "Tailwind CSS"],
+    "about": [
+      "A feature-rich music application that leverages the YouTube API to provide users with access to millions of songs and audio content. The application offers a seamless music streaming experience with modern UI/UX design.",
+      "The application includes features such as music search, playlist creation, favorite tracks, playback controls, and user authentication. Users can create custom playlists, save their favorite songs, and enjoy uninterrupted music streaming.",
+      "Built with Next.js for optimal performance and Firebase for user data management and authentication. The YouTube API integration provides access to a comprehensive music library, while the responsive design ensures a great experience across all devices."
+    ]
+  },
+  {
+    "slug": "scheduling-simulator",
+    "category": "WEB APPLICATION",
+    "title": "Scheduling Simulator",
+    "description": "A CPU scheduling algorithm simulator that demonstrates FIFO, LIFO, Round Robin, and other scheduling algorithms with performance comparisons.",
+    "tags": ["Next.js", "Simulation", "Algorithms", "+2 more"],
+    "client": "Semester Project",
+    "year": "2025",
+    "technologies": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Algorithm Visualization"],
+    "about": [
+      "An educational tool that simulates various CPU scheduling algorithms including FIFO (First In First Out), LIFO (Last In First Out), Round Robin, and other common scheduling techniques. The simulator helps users understand how different algorithms handle process scheduling.",
+      "The application allows users to input processes with different arrival times and burst times, then visualize how each scheduling algorithm processes them. The simulator provides detailed performance metrics including average waiting time, turnaround time, and throughput for each algorithm.",
+      "Built with Next.js, the simulator includes interactive visualizations that show the execution timeline for each algorithm. The application compares performance metrics across different algorithms and provides recommendations on which scheduling method works best for specific scenarios, making it an excellent educational resource for understanding operating system concepts."
+    ]
+  },
+  {
+    "slug": "zazen-ai",
+    "category": "WEB & AI",
+    "title": "Zazen AI",
+    "description": "An AI-powered idea evaluation and enhancement platform that scores ideas, provides improvements, requirements, and complete budget planning.",
+    "tags": ["Next.js", "Firebase", "AI", "+2 more"],
+    "client": "Personal Project",
+    "year": "2025",
+    "technologies": ["Next.js", "Firebase", "Gemini API", "React", "TypeScript", "Tailwind CSS"],
+    "about": [
+      "Zazen AI is an innovative platform that helps entrepreneurs and innovators evaluate and enhance their business ideas. Simply present your idea, and the AI provides comprehensive analysis including scoring, enhancement suggestions, and detailed planning.",
+      "The application evaluates ideas based on various criteria such as market potential, feasibility, innovation level, and scalability. It then provides actionable enhancements, identifies requirements needed to fulfill the idea, and generates a complete plan including budget estimates and resource allocation.",
+      "Built with Next.js and integrated with Google's Gemini API for intelligent analysis, the platform uses Firebase for data storage. The application provides detailed reports that help users understand the viability of their ideas and plan their execution strategy effectively."
+    ]
+  },
+  {
+    "slug": "mlue-expense-tracker",
+    "category": "WEB & AI",
+    "title": "MLUE - Expense Tracker",
+    "description": "An intelligent expense tracking application with voice automation, allowing users to record expenses using voice commands powered by AI.",
+    "tags": ["Next.js", "Firebase", "AI", "+2 more"],
+    "client": "Personal Project",
+    "year": "2025",
+    "technologies": ["Next.js", "Firebase", "Gemini API", "Voice Recognition", "React", "TypeScript", "Tailwind CSS"],
+    "about": [
+      "MLUE is a modern expense tracking application that simplifies financial management through voice automation. Users can quickly record expenses by speaking naturally, making expense tracking effortless and convenient.",
+      "The application features voice-to-text expense entry, automatic categorization, spending analytics, budget tracking, and detailed reports. The AI-powered voice recognition understands natural language, allowing users to say things like 'Coffee $5' or 'Lunch at restaurant $25' and automatically records the expense.",
+      "Built with Next.js and Firebase for real-time data synchronization, integrated with Gemini API for intelligent voice processing and expense categorization. The application provides insightful analytics and visualizations to help users understand their spending patterns and manage their finances more effectively."
     ]
   }
 ]

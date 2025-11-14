@@ -21,7 +21,9 @@ export function ConnectSection({ sectionRef }: ConnectSectionProps) {
 
             <div className="space-y-4">
               <Link
-                href="mailto:test@example.com"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=muhadsafdar26@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group flex items-center gap-3 text-foreground hover:text-muted-foreground transition-colors duration-300"
               >
                 <span className="text-base sm:text-lg">Email me</span>
@@ -43,7 +45,7 @@ export function ConnectSection({ sectionRef }: ConnectSectionProps) {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <Link
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/muhammad-muhad-8b1662303/"
               target="_blank"
               rel="noopener noreferrer"
               className="group p-4 border border-border rounded-lg hover:border-muted-foreground/50 transition-all duration-300 hover:shadow-sm"
@@ -59,7 +61,7 @@ export function ConnectSection({ sectionRef }: ConnectSectionProps) {
             </Link>
 
             <Link
-              href="https://wa.me"
+              href="https://wa.me/923210044414"
               target="_blank"
               rel="noopener noreferrer"
               className="group p-4 border border-border rounded-lg hover:border-muted-foreground/50 transition-all duration-300 hover:shadow-sm"
@@ -75,7 +77,7 @@ export function ConnectSection({ sectionRef }: ConnectSectionProps) {
             </Link>
 
             <Link
-              href="https://discord.com"
+              href="https://discord.gg/muhad1234"
               target="_blank"
               rel="noopener noreferrer"
               className="group p-4 border border-border rounded-lg hover:border-muted-foreground/50 transition-all duration-300 hover:shadow-sm"
@@ -91,7 +93,7 @@ export function ConnectSection({ sectionRef }: ConnectSectionProps) {
             </Link>
 
             <Link
-              href="https://instagram.com"
+              href="https://instagram.com/itx_muhad"
               target="_blank"
               rel="noopener noreferrer"
               className="group p-4 border border-border rounded-lg hover:border-muted-foreground/50 transition-all duration-300 hover:shadow-sm"
