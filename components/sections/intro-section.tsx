@@ -17,9 +17,9 @@ export function IntroSection({ sectionRef, showSocialLinks }: IntroSectionProps)
     >
       {/* Vertical Social Links on Right Edge - Only in Intro Section */}
       {showSocialLinks && (
-        <div className="fixed right-8 top-1/2 -translate-y-1/2 hidden lg:flex flex-col gap-16 z-10 transition-opacity duration-300">
+        <div className="fixed right-8 top-24 sm:top-32 hidden lg:flex flex-col gap-16 z-10 transition-opacity duration-300">
           <Link
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/muhammad-muhad-8b1662303/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-foreground transition-colors duration-300 writing-vertical-rl text-lg uppercase tracking-wider"
@@ -28,7 +28,7 @@ export function IntroSection({ sectionRef, showSocialLinks }: IntroSectionProps)
             LINKEDIN
           </Link>
           <Link
-            href="https://github.com"
+            href="https://github.com/Muhad01"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-foreground transition-colors duration-300 writing-vertical-rl text-lg uppercase tracking-wider"
@@ -37,7 +37,7 @@ export function IntroSection({ sectionRef, showSocialLinks }: IntroSectionProps)
             GITHUB
           </Link>
           <Link
-            href="https://wa.me"
+            href="https://wa.me/923210044414"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-foreground transition-colors duration-300 writing-vertical-rl text-lg uppercase tracking-wider"
