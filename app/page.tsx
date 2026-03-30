@@ -19,7 +19,7 @@ function getActiveSectionFromScroll(): string {
 
   // Last section whose top has passed this line wins (classic scroll-spy)
   const markerY = innerHeight * 0.32
-  let active = SECTION_IDS[0]
+  let active: (typeof SECTION_IDS)[number] = SECTION_IDS[0]
   for (const id of SECTION_IDS) {
     const el = document.getElementById(id)
     if (!el) continue
