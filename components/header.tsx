@@ -10,7 +10,7 @@ interface HeaderProps {
   isDark?: boolean
 }
 
-export function Header({ email = "muhadsafdar26@gmail.com", onThemeToggle, isDark = false }: HeaderProps) {
+export function Header({ email = "muhadsafdar26@gmail.com", onThemeToggle }: HeaderProps) {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm supports-[backdrop-filter]:bg-background/80 border-b border-border/50 sm:border-0">
       <div className="max-w-[1920px] mx-auto px-3 sm:px-6 lg:px-8 xl:px-16">

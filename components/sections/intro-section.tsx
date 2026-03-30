@@ -53,7 +53,7 @@ export function IntroSection({ sectionRef, showSocialLinks }: IntroSectionProps)
           <div className="space-y-3 sm:space-y-2">
             <div className="text-xl sm:text-2xl text-muted-foreground font-mono tracking-wider">Hello there</div>
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-light tracking-tight break-words">
-              I'm
+              I&apos;m
               <br />
               <span className="text-muted-foreground">Muhad</span>
             </h1>
