@@ -1,0 +1,277 @@
+[
+  {
+    "slug": "todo-application-java",
+    "category": "WEB APPLICATION",
+    "title": "Todo Application",
+    "description": "A comprehensive todo application built using Java with MVC architecture for efficient task management.",
+    "tags": [
+      "Java",
+      "MVC",
+      "Desktop Application",
+      "+1 more"
+    ],
+    "client": "Personal Project",
+    "year": "2025",
+    "technologies": [
+      "Java",
+      "MVC Architecture",
+      "Swing",
+      "Object-Oriented Programming"
+    ],
+    "about": [
+      "A robust todo application developed in Java following the Model-View-Controller (MVC) architectural pattern. The application provides a clean separation of concerns, making the codebase maintainable and scalable.",
+      "The application features comprehensive task management capabilities including creating, updating, deleting, and organizing todos. Users can categorize tasks, set priorities, and track completion status.",
+      "Built with Java's Swing framework for the user interface, the application demonstrates strong understanding of object-oriented programming principles, design patterns, and software architecture. The MVC pattern ensures that business logic, data, and presentation are properly separated."
+    ],
+    "previewUrl": "https://portfolio-two-mu-etv822mogw.vercel.app/"
+  },
+  {
+    "slug": "gourmet-restaurant-website",
+    "category": "WEB DEVELOPMENT",
+    "title": "Gourmet Restaurant Website",
+    "description": "A modern restaurant website for 'Gourmet' featuring menu display, reservations, and online ordering capabilities.",
+    "tags": [
+      "Next.js",
+      "Firebase",
+      "Web Development",
+      "+2 more"
+    ],
+    "client": "Personal Project",
+    "year": "2025",
+    "technologies": [
+      "Next.js",
+      "Firebase",
+      "React",
+      "TypeScript",
+      "Tailwind CSS"
+    ],
+    "about": [
+      "A beautifully designed restaurant website for 'Gourmet' that showcases the restaurant's menu, ambiance, and services. The website provides an intuitive user experience for customers to explore the restaurant's offerings.",
+      "The application includes features such as an interactive menu display with categories, online reservation system, and contact information. The design emphasizes visual appeal with high-quality images and smooth animations.",
+      "Built with Next.js for optimal performance and SEO, integrated with Firebase for real-time data management. The responsive design ensures a seamless experience across all devices, from desktop to mobile."
+    ],
+    "previewUrl": "https://restaurant-website-2inf.vercel.app/"
+  },
+  {
+    "slug": "learning-management-system",
+    "category": "WEB APPLICATION",
+    "title": "Learning Management System",
+    "description": "A comprehensive learning management system for educational institutions to manage courses, students, and assignments.",
+    "tags": [
+      "Next.js",
+      "Firebase",
+      "Education",
+      "+2 more"
+    ],
+    "client": "Personal Project",
+    "year": "2025",
+    "technologies": [
+      "Next.js",
+      "Firebase",
+      "React",
+      "TypeScript",
+      "Tailwind CSS"
+    ],
+    "about": [
+      "A full-featured learning management system designed to facilitate online education. The platform enables educators to create and manage courses, upload materials, and track student progress.",
+      "The system includes features such as course creation and management, student enrollment, assignment submission and grading, discussion forums, and progress tracking. Students can access course materials, submit assignments, and interact with instructors.",
+      "Built with Next.js for server-side rendering and Firebase for real-time database and authentication. The application provides a scalable solution for educational institutions looking to digitize their learning processes."
+    ],
+    "previewUrl": "https://portfolio-two-mu-etv822mogw.vercel.app/"
+  },
+  {
+    "slug": "buddy-application",
+    "category": "MOBILE DEVELOPMENT",
+    "title": "Buddy Application",
+    "description": "A todo application built with Flutter and Dart, featuring Firebase integration for cloud synchronization.",
+    "tags": [
+      "Dart",
+      "Flutter",
+      "Firebase",
+      "+1 more"
+    ],
+    "client": "Personal Project",
+    "year": "2025",
+    "technologies": [
+      "Dart",
+      "Flutter",
+      "Firebase",
+      "Mobile Development",
+      "State Management"
+    ],
+    "about": [
+      "Buddy is a cross-platform todo application developed using Flutter and Dart, providing a seamless task management experience on both iOS and Android devices. The app features a modern, intuitive interface with smooth animations.",
+      "The application includes features such as task creation, editing, deletion, categorization, and priority setting. Firebase integration enables real-time synchronization across all user devices, ensuring tasks are always up to date.",
+      "Built with Flutter's reactive framework and Firebase for backend services, the application demonstrates proficiency in mobile development, state management, and cloud integration. The app provides offline capabilities with automatic sync when connectivity is restored."
+    ],
+    "previewUrl": "https://portfolio-two-mu-etv822mogw.vercel.app/"
+  },
+  {
+    "slug": "smart-parking-management-system",
+    "category": "WEB APPLICATION",
+    "title": "Smart Parking Management System",
+    "description": "An intelligent parking management system for efficient parking space allocation and monitoring.",
+    "tags": [
+      "Next.js",
+      "Firebase",
+      "Management System",
+      "+2 more"
+    ],
+    "client": "Semester Project",
+    "year": "2025",
+    "technologies": [
+      "Next.js",
+      "Firebase",
+      "React",
+      "TypeScript",
+      "Tailwind CSS"
+    ],
+    "about": [
+      "A comprehensive parking management system designed to optimize parking space utilization and provide real-time availability information. The system helps parking facilities manage their operations more efficiently.",
+      "The application features real-time parking space tracking, reservation system, payment processing, and analytics dashboard. Users can check parking availability, reserve spots, and make payments through the platform.",
+      "Built with Next.js and Firebase, the system provides real-time updates on parking availability and integrates payment processing. The analytics dashboard helps administrators monitor usage patterns and optimize operations."
+    ],
+    "previewUrl": "https://portfolio-two-mu-etv822mogw.vercel.app/"
+  },
+  {
+    "slug": "proposal-ai",
+    "category": "WEB & AI",
+    "title": "Proposal AI",
+    "description": "An AI-powered CV generator that scrapes details from GitHub and LinkedIn, then creates personalized CVs based on user commands using Langchain and Gemini API.",
+    "tags": [
+      "Next.js",
+      "Firebase",
+      "AI",
+      "+3 more"
+    ],
+    "client": "Personal Project",
+    "year": "2025",
+    "technologies": [
+      "Next.js",
+      "Firebase",
+      "Langchain",
+      "Gemini API",
+      "RAGs",
+      "TypeScript",
+      "Tailwind CSS"
+    ],
+    "about": [
+      "Proposal AI is an innovative application that automates CV creation by intelligently extracting information from your GitHub and LinkedIn profiles. Simply provide your profile links and specify your requirements, and the AI generates a tailored CV.",
+      "The application uses web scraping to gather your professional details, projects, skills, and experience from GitHub and LinkedIn. Using Langchain and RAGs (Retrieval-Augmented Generation), it processes this information and generates a comprehensive CV based on your specific commands and requirements.",
+      "Built with Next.js for the frontend, Firebase for data storage, and integrated with Google's Gemini API for AI processing. The application leverages RAGs to provide context-aware CV generation, ensuring the output is relevant and personalized to your career profile."
+    ],
+    "previewUrl": "https://portfolio-two-mu-etv822mogw.vercel.app/"
+  },
+  {
+    "slug": "music-application",
+    "category": "WEB APPLICATION",
+    "title": "Music Application",
+    "description": "A modern music streaming application that integrates with YouTube API to provide access to a vast library of music and audio content.",
+    "tags": [
+      "Next.js",
+      "Firebase",
+      "YouTube API",
+      "+2 more"
+    ],
+    "client": "Personal Project",
+    "year": "2026",
+    "technologies": [
+      "Next.js",
+      "Firebase",
+      "YouTube API",
+      "React",
+      "TypeScript",
+      "Tailwind CSS"
+    ],
+    "about": [
+      "A feature-rich music application that leverages the YouTube API to provide users with access to millions of songs and audio content. The application offers a seamless music streaming experience with modern UI/UX design.",
+      "The application includes features such as music search, playlist creation, favorite tracks, playback controls, and user authentication. Users can create custom playlists, save their favorite songs, and enjoy uninterrupted music streaming.",
+      "Built with Next.js for optimal performance and Firebase for user data management and authentication. The YouTube API integration provides access to a comprehensive music library, while the responsive design ensures a great experience across all devices."
+    ],
+    "previewUrl": "https://portfolio-two-mu-etv822mogw.vercel.app/"
+  },
+  {
+    "slug": "scheduling-simulator",
+    "category": "WEB APPLICATION",
+    "title": "Scheduling Simulator",
+    "description": "A CPU scheduling algorithm simulator that demonstrates FIFO, LIFO, Round Robin, and other scheduling algorithms with performance comparisons.",
+    "tags": [
+      "Next.js",
+      "Simulation",
+      "Algorithms",
+      "+2 more"
+    ],
+    "client": "Semester Project",
+    "year": "2025",
+    "technologies": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Algorithm Visualization"
+    ],
+    "about": [
+      "An educational tool that simulates various CPU scheduling algorithms including FIFO (First In First Out), LIFO (Last In First Out), Round Robin, and other common scheduling techniques. The simulator helps users understand how different algorithms handle process scheduling.",
+      "The application allows users to input processes with different arrival times and burst times, then visualize how each scheduling algorithm processes them. The simulator provides detailed performance metrics including average waiting time, turnaround time, and throughput for each algorithm.",
+      "Built with Next.js, the simulator includes interactive visualizations that show the execution timeline for each algorithm. The application compares performance metrics across different algorithms and provides recommendations on which scheduling method works best for specific scenarios, making it an excellent educational resource for understanding operating system concepts."
+    ],
+    "previewUrl": "https://portfolio-two-mu-etv822mogw.vercel.app/"
+  },
+  {
+    "slug": "zazen-ai",
+    "category": "WEB & AI",
+    "title": "Zazen AI",
+    "description": "An AI-powered idea evaluation and enhancement platform that scores ideas, provides improvements, requirements, and complete budget planning.",
+    "tags": [
+      "Next.js",
+      "Firebase",
+      "AI",
+      "+2 more"
+    ],
+    "client": "Personal Project",
+    "year": "2025",
+    "technologies": [
+      "Next.js",
+      "Firebase",
+      "Gemini API",
+      "React",
+      "TypeScript",
+      "Tailwind CSS"
+    ],
+    "about": [
+      "Zazen AI is an innovative platform that helps entrepreneurs and innovators evaluate and enhance their business ideas. Simply present your idea, and the AI provides comprehensive analysis including scoring, enhancement suggestions, and detailed planning.",
+      "The application evaluates ideas based on various criteria such as market potential, feasibility, innovation level, and scalability. It then provides actionable enhancements, identifies requirements needed to fulfill the idea, and generates a complete plan including budget estimates and resource allocation.",
+      "Built with Next.js and integrated with Google's Gemini API for intelligent analysis, the platform uses Firebase for data storage. The application provides detailed reports that help users understand the viability of their ideas and plan their execution strategy effectively."
+    ],
+    "previewUrl": "https://portfolio-two-mu-etv822mogw.vercel.app/"
+  },
+  {
+    "slug": "mlue-expense-tracker",
+    "category": "WEB & AI",
+    "title": "MLUE - Expense Tracker",
+    "description": "An intelligent expense tracking application with voice automation, allowing users to record expenses using voice commands powered by AI.",
+    "tags": [
+      "Next.js",
+      "Firebase",
+      "AI",
+      "+2 more"
+    ],
+    "client": "Personal Project",
+    "year": "2025",
+    "technologies": [
+      "Next.js",
+      "Firebase",
+      "Gemini API",
+      "Voice Recognition",
+      "React",
+      "TypeScript",
+      "Tailwind CSS"
+    ],
+    "about": [
+      "MLUE is a modern expense tracking application that simplifies financial management through voice automation. Users can quickly record expenses by speaking naturally, making expense tracking effortless and convenient.",
+      "The application features voice-to-text expense entry, automatic categorization, spending analytics, budget tracking, and detailed reports. The AI-powered voice recognition understands natural language, allowing users to say things like 'Coffee $5' or 'Lunch at restaurant $25' and automatically records the expense.",
+      "Built with Next.js and Firebase for real-time data synchronization, integrated with Gemini API for intelligent voice processing and expense categorization. The application provides insightful analytics and visualizations to help users understand their spending patterns and manage their finances more effectively."
+    ],
+    "previewUrl": "https://portfolio-two-mu-etv822mogw.vercel.app/"
+  }
+]
